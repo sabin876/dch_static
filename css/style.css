@@ -149,10 +149,10 @@ section{
 .btn{
    display: inline-block;
    background: var(--black);
-   margin-top: 1rem;
+   margin-top: 1rem!important;;
    color:var(--white); 
-   font-size: 1.7rem;
-   padding:1rem 3rem;
+   font-size: 1.7rem!important;;
+   padding:1rem 3rem !important;;
    cursor: pointer;
 }
 
@@ -829,7 +829,7 @@ div.msg{
  
  
    --color: #9176FF;
-   --bg-color: #f4f4f4;
+   --bg-color: #595757;
  }
  
  
@@ -841,19 +841,18 @@ div.msg{
 
 
 
-.card{
+.testmn-card-wrapper{
    font-family: var(--font);
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh;
+   
  
-   background-color: var(--bg-color);
+   background-color:wheat;
  }
-
  
  .swiper{
-   width: 100%;
+   width: 70%;
  }
  
  .swiper-wrapper{
@@ -863,9 +862,9 @@ div.msg{
    align-items: center;
  }
  
- .card{
-   width: 100%;
-   height: 80%;
+ .testmn-card-wrapper{
+   width: 95%;
+   height: 50%;
    background-color: #fff;
    border-radius: 2em;
    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
@@ -875,7 +874,7 @@ div.msg{
    align-items: center;
    flex-direction: column;
  
-   margin: 0 2em;
+   margin: auto;
  }
  
  .swiper-slide:not(.swiper-slide-active){
@@ -883,8 +882,8 @@ div.msg{
  }
  
  .card__image{
-   width: 10em;
-   height: 10em;
+   width: 13em;
+   height: 13em;
    border-radius: 50%;
    border: 5px solid var(--color);
    padding: 3px;
@@ -905,7 +904,7 @@ div.msg{
  }
  
  .card__title{
-   font-size: 1.5rem;
+   font-size:2rem;
    font-weight: 500;
    position: relative;
    top: .2em;
@@ -917,14 +916,14 @@ div.msg{
  
  .card__text{
    text-align: center;
-   font-size: 1.1rem;
+   font-size: 2rem;
    margin: 1em 0;
  }
  
  .card__btn{
    background-color: var(--color);
    color: #fff;
-   font-size: 1rem;
+   font-size: 1.5rem;
    text-transform: uppercase;
    font-weight: 600;
    border: none;
